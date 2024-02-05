@@ -66,11 +66,10 @@ if (url ==='/message' && method ==='POST'){
     console.log(chunk);
    body.push(chunk);
   })
-  req.on('end', ()=>{
-   const parsedBody = Buffer.concat(body).toString();
+ return req.on('end', ()=>{
+    const parsedBody = Buffer.concat(body).toString();
    const message = parsedBody.split('=')[1];
-   fs.writeFileSync('message.txt', message)
-   fs.writeFileSync('message.txt',' this is shkail ');
+   fs.writeFileSync('message.txt', message);  //code re block kore exicution porjonto 
    res.statusCode = 302;
    res.setHeader('Location', '/');
    return res.end();
