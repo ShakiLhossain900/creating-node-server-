@@ -1,0 +1,19 @@
+{
+  "name": "creating-node-server",
+  "version": "1.0.0",
+  "description": "complete node js ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShakiLhossain900/creating-node-server-.git"
+  },
+  "author": "Gazi Md Shakil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShakiLhossain900/creating-node-server-/issues"
+  },
+  "homepage": "https://github.com/ShakiLhossain900/creating-node-server-#readme"
+}
